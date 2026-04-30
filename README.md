@@ -32,11 +32,9 @@ The board started as a quick PCF8563 test board for layouts that could feed a la
 
 ## Current design
 
-Latest routed layout (0402 passives except noted magnetometer bulk cap):
-
 ![PCB layout — routing](./images/kicad_7mpFMV2jHZ.png)
 
-3D / cosmetic view of the same revision:
+3D view:
 
 ![PCB 3D view](./images/kicad_PIgCup8CTn.png)
 
