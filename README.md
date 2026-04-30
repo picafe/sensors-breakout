@@ -6,7 +6,7 @@ Small 4-layer KiCad PCB that packs a RTC and several I²C and SPI sensors into a
 
 ## What it is
 
-A breakout built around the **PCF8563 RTC**, sharing the bus with a **Sensirion SHT41** temperature/humidity sensor on an I²C bus. There is then a **STMicro LSM6DSV** IMU connected over SPI with a 7-pin JST SH connector, and **QST QMC6309** magnetometer connected over I²C to the LSM6DSV's sensorhub with level shifting. Power and interfacing evolved toward 1.8 V power+logic for the RTC, temp sensor, and IMU, while keeping the magnetometer on 3.3 V via a LDO and level shifting where needed, so the design stays compatible with economic JLC PCBA.
+A breakout built around the **PCF8563 RTC**, **Sensirion SHT41** temperature/humidity sensor on an I²C bus. There is a **STMicro LSM6DSV** IMU connected over SPI with a 7-pin JST SH connector, and **QST QMC6309** magnetometer connected over I²C to the LSM6DSV's sensorhub with level shifting. Power and interfacing evolved toward 1.8 V power+logic for the RTC, temp sensor, and IMU, while keeping the magnetometer on 3.3 V via a LDO and level shifting where needed, so the design stays compatible with economic JLC PCBA.
 
 ---
 
